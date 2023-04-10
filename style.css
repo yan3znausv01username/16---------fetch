@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;1,200&family=Rubik:wght@300&display=swap');
+
+body{
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    background-color:rebeccapurple ;
+}
+
+#mainCont{
+    background-color: white;
+    color: dodgerblue;
+    justify-content: center;
+    border-radius:0px 0px 1px 1px ;
+    width: 325px;
+    height: 200px;
+}
+
+.btn{
+    background: linear-gradient(89deg, #4c00ff, #ff0000);
+    width: 300px;
+    height: 50px;
+    font-size: 100%;
+    border-radius: 3px 0px 0px 3px;
+}
+
+.btn2{
+    background: linear-gradient(89deg, #4c00ff, #ff0000);
+    width: 200px;
+    height: 35px;
+    font-size: 100%;
+    border-radius: 3px 0px 0px 3px;
+}
+
+#inputSearch{
+    font-size: 10px;
+    padding: 10px;
+    border-radius: 8px 0 0 8px;
+    font-family: Rubik;
+    color: #4d91fe;
+    border: 1px solid #00000052;
+    font-weight: 700;
+    transition: all 0. 2s linear;
+    margin-bottom: 4px;
+    width: 25%;
+    height: 5px;
+}
+#inputSearch::placeholder{
+    color: #4d90f082;
+}
+
+#inputSearch:focus{
+    
+}
+
